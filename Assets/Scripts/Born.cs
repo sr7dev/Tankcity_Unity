@@ -26,7 +26,8 @@ public class Born : MonoBehaviour {
 			Instantiate(PlayerPrefab,transform.position,Quaternion.identity);
 		}else{
 			enemyList = enemyList.OrderBy(c => System.Guid.NewGuid()).ToArray<int>();
-			int num = Random.Range(0, enemyList.Length);
+			int num = Random.Range(0, enemyList.Length - 1);
+            Debug.Log(num);
 			Instantiate(enemyPrefabList[enemyList[num]],transform.position,Quaternion.identity);
 		}
 	}
