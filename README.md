@@ -1,5 +1,5 @@
 # Unity-Battle-City
-Look like FC Game.
+
 
 ## Demo:
 ![PlayinUnity](https://raw.githubusercontent.com/Sonic853/Unity-Battle-City/master/.image/Unity-Battle-City-1.gif?20181203 "PlayinUnity")
